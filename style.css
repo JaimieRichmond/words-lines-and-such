@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+
+header {
+  background: url('cool-dark-bg.jpg') no-repeat center center/cover;
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2em;
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  background: #333;
+  padding: 1em;
+}
+
+nav a {
+  color: #b0c4de;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #222;
+  color: #aaa;
+}
